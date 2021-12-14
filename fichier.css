@@ -41,3 +41,29 @@ a:active{
 .positionImage{
     position: relative; left: 50px;
 }
+
+@media screen and (hover:none) and (orientation:portrait){
+    .menu-cellulaire-vertical{
+        width: 200px;
+    }
+    .flex1{
+        flex-grow: 1;
+        flex-shrink: 10;
+    }
+    .flex2{
+        flex-grow: 2;
+        flex-shrink: 5;
+    }
+}
+   
+ol{
+    font-size: 30px;
+}
+tr:nth-child(even){
+    background-color: black;
+    color:white;
+}
+#Tableau{
+    font-size: 30px;
+    font-style: oblique;
+}
